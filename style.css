@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Inter';
+}
+
+.main {
+    text-align: center;
+    background: #495579;
+    width: 317px;
+    margin: 40px auto;
+}
+
+img {
+    width: 317px;
+    height: 317px;
+}
+
+.info-div {
+    text-align: center;
+}
+
+.info-div > h1 {
+    font-size: 23px;
+    line-height: 30px;
+}
+
+.info-div > h3 {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #F3BF99;
+}
+
+.info-div > p {
+    font-size: 12px;
+    line-height: 150%;
+    color: #F5F5F5;
+}
+
+.info-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    column-gap: 17px
+}
+
+.info-email-btn {
+    width: 115px;
+    height: 34px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    font-size: 15px;
+    line-height: 16px;
+    color: #374151;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.info-linkedin-btn {
+    width: 115px;
+    height: 34px;
+    background: #5093E2;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    line-height: 16px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-email-btn > img {
+    width: 15px;
+    height: 15px;
+    margin: 7px; 
+}
+
+.info-linkedin-btn > img {
+    width: 13px;
+    height: 10px;
+    margin: 7px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a :hover {
+    cursor: pointer;
+}
+
+.aboutAndInterests-div > h2 {
+    text-align: start;
+    margin-left: 35px;
+    font-size: 14px;
+    line-height: 150%;
+    color: #F5F5F5;
+}
+
+.aboutAndInterests-div > p {
+    text-align: start;
+    margin: -7px 35px 20px 35px;
+    font-size: 12px;
+    line-height: 150%;
+    color: #DCDCDC;
+}
+
+footer {
+    width: 317px;
+    height: 64px;
+    background: #263159;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    margin: 40px auto;
+}
+
+footer > a > img {
+    width: 40px;
+    height: 40px;
+    margin: auto;
+}
